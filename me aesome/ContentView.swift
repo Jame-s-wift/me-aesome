@@ -17,12 +17,12 @@ struct ContentView: View {
                 .padding()
                 .foregroundColor(.gray)
                 .bold()
-            Button("press me"){
+            Button("Press me"){
                 // this is  the action performed
                 thisIsAVar = "Yay"
             }
             .buttonStyle(.bordered)
-            
+            .font(.system(size: 20))
             Button("great"){
                 thisIsAVar = "Thanks"
             }
