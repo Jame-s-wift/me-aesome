@@ -19,7 +19,7 @@ struct ContentView: View {
                 .bold()
             Button("Press me"){
                 // this is  the action performed
-                thisIsAVar = "Yay"
+                thisIsAVar = "YAY"
             }
             .buttonStyle(.bordered)
             .font(.system(size: 20))
